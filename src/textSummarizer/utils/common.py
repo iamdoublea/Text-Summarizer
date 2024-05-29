@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 
+#we are not creating Custom Exceptions, in place we are using BoxException for the same reason
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
